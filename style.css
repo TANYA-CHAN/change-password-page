@@ -15,10 +15,12 @@ html,body{
 .container{
   background: #fff;
   padding: 20px 30px;
-  height: 300px;
-  width: 100%;
+  height: 320px;
+  width: 90%;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-right: 80px;
+  margin-left: 80px;
 }
 .container header{
   padding-top: 9px;
@@ -82,7 +84,7 @@ form .field .show.active{
 }
 form button{
   width: 30%;
-  height: 45px;
+  height: 55px;
   margin: 3px 0 10px 0;
   border: none;
   outline: none;
@@ -105,11 +107,11 @@ form button.active:hover{
   background: #cbafd8;
 }
 .top-section{
-    height: 47px;
+    height: 50px;
     font-size: 30px;
     color: #ac66cc;
   font-weight: 500;
-    display: flex;                   /* defines flexbox */
+    display: flex;                   
     flex-direction: column;          /* top to bottom */
     justify-content: space-between;
 }
