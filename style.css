@@ -7,30 +7,32 @@
 }
 html,body{
   height: 90px;
-    padding: 20px 0px;
+  padding: 20px 0px;
   place-items: center;
   text-align: center;
   background: #cbafd8;
 }
 .container{
+  display: flex;
   background: #fff;
-  padding: 20px 30px;
-  height: 320px;
-  width: 90%;
-  border-radius: 5px;
+  padding: 50px 50px;
+  text-align: center;
+  display: grid;
+  /* width: 420px; */
+  border-radius: 15px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-right: 80px;
-  margin-left: 80px;
+  margin-right: 160px;
+  margin-left: 160px; 
 }
 .container header{
-  padding-top: 9px;
+  padding-top: 10px;
   font-size: 25px;
   font-weight: 600;
   line-height: 33px;
 }
-/* .container form{
+.container form{
   margin: 5px 8px;
-} */
+}
 .container form .error-text{
   background: #F8D7DA;
   padding: 8px 0;
@@ -83,8 +85,8 @@ form .field .show.active{
   color: #ac66cc;
 }
 form button{
-  width: 30%;
-  height: 55px;
+  width: 50%;
+  height: 59px;
   margin: 3px 0 10px 0;
   border: none;
   outline: none;
@@ -110,8 +112,8 @@ form button.active:hover{
     height: 50px;
     font-size: 30px;
     color: #ac66cc;
-  font-weight: 500;
-    display: flex;                   
+   font-weight: 500;
+    display: grid;                   
     flex-direction: column;          /* top to bottom */
     justify-content: space-between;
 }
